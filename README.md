@@ -1,96 +1,61 @@
-# DREADED-BOT
 
-***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
-
-
-# DISCLAIMER
-
-***Do not modify, omit or edit the credits given else we can take illegal/legal action! 
-This applies to forks and ctrlCctrlV(imports)***
-
-## FEATURES
-This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of openai APIs.
-
-You will need an openai API key for AI features to work.
-
-# SET-UP
-
-Linking/Pairing:
-
-
-## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@botdreaded/Pairing-Dreaded"><img src="https://repl.it/badge/github/quiec/whatsasena" />
-</a>
-</h2>
-
-Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusmokaya/DREADED-PAIRING)
-
-    
-<h2 align="center">   
-
-- Fork this repo by tapping  [here](https://github.com/xhclintohn/Whatsapp-Bot/fork)
-
-
-- Upload the creds.json that you received to the dreaded1 folder.
-
-- Connect your fork to any suitable cloud host and deploy.
-
-- Add the environmental variables in .env into your hosting site for bot to work.
-</h2>
- 
-     
-
-     
-
- 
-
-
-
-Termux procedure is given below.
- 
-
-**Install Via Termux locally✅**
-
-
-```bash
-$ pkg install git nodejs -y
-$ git clone https://github.com/xhclintohn/Whatsapp-Bot
-$ cd DREADED-GPT-AI
-$ npm install
-```
-
-
-**Running the bot**
-```bash
-$ node index.js
-```
-
-# Credits
-
-Thanks to...
-
+</p>
+<p align="center">
+  <a href="https://chat.whatsapp.com/ESB8e9HAS2wGlwBvzGnLx">
+    <img alt=Support height="250" src="https://i.imgur.com/uHWFNup.jpeg"> </p>
 <div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+Toxic-AI ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
+  </p>
+  <p align="center"> 
+  <a href="https://github.com/xhclintohn/Toxic-AI/stargazers">
+    <img src="https://img.shields.io/github/stars/xhclintohn/Toxic-AI?style=social">
+
+
+<p align="center"> 
+  Hi there, I am "Toxic AI" a simple WhatsApp bot made by Clinton to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+</p>
+</br>
+
+### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
+</br>
+
+## ```Connect With Me```
+
+<p align="center">
+
+<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰+Clinton"><img src="https://img.shields.io/badge/Contact dev Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
+
+
+## ```Bot Support Groups```
+<p align="center">
+
+<a href="https://chat.whatsapp.com/FoS7pSPtfMqBuieK4aAJ"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
+
+# Setup For Deployment 
+
+- FORK THE REPOSITORY
+   <br>
+<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="Toxic-MD" src="https://img.shields.io/badge/FORK TOXIC-1-h?color=black&style=for-the-badge&logo=stackshare"></a>
+
+
+## ` Pair with WhatsApp`
+<br>
+<a href='https://replit.com/@xhclinton/Toxic-Pairing-v1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan qr--100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+
   
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
-|----|
-* [`Fortunatus mokaya`](https://github.com/Fortunatusmokaya) ***Author, Owner***
-
-* [`DikaArdnt`](https://github.com/DikaArdnt) ***For Hisoka Base***
-* [`Adiwajshing`](https://github.com/WhiskeySockets/Baileys) ***Baileys Library***
-* [`WaSocket Discord`](https://discord.gg/WeJM5FP9GG) ***Maintaining the bot libs***
-
-* 
-
----
-
-Incase of any issues, contact me  [here](https://wa.me/+254114018035) via WhatsApp or [here](mokayafortunatus@gmail.com) via Email.
-
-Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
+  
 
 
-## License
 
-[MIT License](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/blob/main/LICENSE)
+## 
+- After getting your /creds.json upload it to /session folder then
+deploy on your favorite platform, enjoy 💩
 
-Copyright (c) 2023 Dreaded-GPT-AI
 
+   
