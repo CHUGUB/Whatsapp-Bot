@@ -28,7 +28,7 @@ Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusm
     
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/fork)
+- Fork this repo by tapping  [here](https://github.com/xhclintohn/Whatsapp-Bot/fork)
 
 
 - Upload the creds.json that you received to the dreaded1 folder.
@@ -54,7 +54,7 @@ Termux procedure is given below.
 
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/Fortunatusmokaya/DREADED-GPT-AI
+$ git clone https://github.com/xhclintohn/Whatsapp-Bot
 $ cd DREADED-GPT-AI
 $ npm install
 ```
