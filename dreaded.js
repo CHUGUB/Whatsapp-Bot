@@ -41,7 +41,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '';
+    const prefix = process.env.PREFIX || '.';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
@@ -447,102 +447,10 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
 
     if (cmd) {
       switch (command) {
-      case "help":
-        case "menu":
-let cap = `╭════〘 𝗗𝗥𝗘𝗔𝗗𝗘𝗗 〙═⊷❍
-┃╭─────────
-┃✯│𝙐𝙨𝙚𝙧 : ${m.pushName}
-┃✯│𝙋𝙞𝙣𝙜 :  ${dreadedspeed.toFixed(4)}ms
-┃✯│𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 : None
-┃╰─────
-╰─────────❍
-         𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿
-        • 𝐏𝐥𝐚𝐲
-        • 𝐘𝐭𝐬
-        • 𝐘𝐭𝐦𝐩3
-        
-        • 𝐋𝐲𝐫𝐢𝐜𝐬
-        • 𝐆𝐢𝐭𝐡𝐮𝐛
-        
-         
-         𝘼𝙄
-         • 𝐆𝐩𝐭
-         • 𝐈𝐦𝐠
-         • 𝐀𝐢
-
-
-         𝘾𝙊𝘿𝙄𝙉𝙂
-         • 𝐄𝐧𝐜
-         • 𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬
-         • 𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲
-         • 𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜
-         • 𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐜++
-         •
-         
-         
-         𝙂𝙍𝙊𝙐𝙋  
-         • 𝐑𝐞𝐦𝐨𝐯𝐞
-         • 𝐃𝐞𝐦𝐨𝐭𝐞
-         • 𝐎𝐩𝐞𝐧
-         • 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬
-         • 𝐅𝐚𝐤𝐞𝐫
-         • 𝐌𝐮𝐭𝐞
-         • 𝐔𝐧𝐦𝐮𝐭𝐞
-         • 𝐈𝐜𝐨𝐧
-         • 𝐃𝐞𝐬𝐜
-         • 𝐒𝐮𝐛𝐣𝐞𝐜𝐭
-         • 𝐃𝐢𝐬𝐩-𝐨𝐟𝐟
-         • 𝐃𝐢𝐬𝐩-1
-         • 𝐃𝐢𝐬𝐩7
-         • 𝐃𝐢𝐬𝐩90
-         • 𝐃𝐞𝐥𝐞𝐭𝐞
-         • 𝐋𝐞𝐚𝐯𝐞
-         • 𝐑𝐞𝐯𝐨𝐤𝐞
-         • 𝐓𝐚𝐠𝐚𝐥𝐥/𝐇𝐢𝐝𝐞𝐭𝐚𝐠
-         
-         
-         𝙀𝘿𝙄𝙏
-         • 𝐓𝐨𝐢𝐦𝐠
-         • 𝐓𝐚𝐤𝐞
-         • 𝐒𝐭𝐢𝐜𝐤𝐞𝐫
-         
-
-         
-         𝙊𝙏𝙃𝙀𝙍𝙎
-         • 𝐌𝐞𝐧𝐮
-         • 𝐒𝐜
-         • 𝐋𝐢𝐧𝐤
-         • 𝐋𝐢𝐧𝐤𝐩𝐜
-         • 𝐀𝐥𝐢𝐯𝐞
-         • 𝐑𝐮𝐧𝐭𝐢𝐦𝐞
-         • 𝐒𝐩𝐞𝐞𝐝
-         • 𝐌𝐞
-         • 𝐏𝐩
-         • 𝐏𝐩2
-         • 𝐒𝐲𝐬𝐭𝐞𝐦
-         • 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
-         
-         
-         𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍
-         • 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭
-         • 𝐀𝐝𝐦𝐢𝐧
-         • 𝐊𝐢𝐜𝐤𝐚𝐥𝐥
-         • >
-         • =>
-         • 𝐁𝐨𝐭𝐩𝐩
-         • 𝐉𝐨𝐢𝐧
-         • 𝐁𝐥𝐨𝐜𝐤
-         • 𝐔𝐧𝐛𝐥𝐨𝐜𝐤
-         • 𝐑𝐞𝐬𝐭𝐚𝐫𝐭
-         • $
-       
-     
-    ╰──────────❍
-    
-       𝐷𝑟𝑒𝑎𝑑𝑒𝑑 𝐵𝑜𝑡 ★
-       
-
-╰═══════════════⊷❍`;
+      case "Hello":
+        case "Hey":
+let cap = `Hello Welcome to our Store,
+if your Interested in our products please type Products ❍`;
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
@@ -1983,7 +1891,7 @@ case "movie":
              } 
  break;
  
-          case "script": case "repo": case "sc": 
+          case "Products": case "products": case "sc": 
  client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@botdreaded/Pairing-Dreaded\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nMade on Earth by Humans!` }, {quoted: m}); 
   
  break; 
